@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "elixir-jsonschema-validator": "^1.4.1",
+    "elixir-jsonschema-validator": "^2.0.0",
     "event-stream": "^3.3.4",
     "file": "^0.2.2",
     "fs": "0.0.1-security",
