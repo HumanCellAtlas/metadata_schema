@@ -1,1 +1,2 @@
 Schema,Change type,Change message,Version,Date
+type/project/project, minor, "Added project-level cell count. Fixes #1337.",,

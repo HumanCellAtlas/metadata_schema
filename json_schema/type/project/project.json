@@ -12,10 +12,10 @@
     "name": "project",
     "type": "object",
     "properties": {
-        "describedBy":  {
+        "describedBy": {
             "description": "The URL reference to the schema.",
             "type": "string",
-            "pattern" : "^(http|https)://schema.(.*?)humancellatlas.org/type/project/(([0-9]{1,}.[0-9]{1,}.[0-9]{1,})|([a-zA-Z]*?))/project"
+            "pattern": "^(http|https)://schema.(.*?)humancellatlas.org/type/project/(([0-9]{1,}.[0-9]{1,}.[0-9]{1,})|([a-zA-Z]*?))/project"
         },
         "schema_version": {
             "description": "The version number of the schema in major.minor.patch format.",
@@ -30,12 +30,12 @@
                 "project"
             ]
         },
-        "provenance" : {
+        "provenance": {
             "description": "Provenance information provided by the system.",
             "type": "object",
             "$ref": "system/provenance.json"
         },
-        "project_core" : {
+        "project_core": {
             "description": "Core project-level information.",
             "type": "object",
             "$ref": "core/project/project_core.json",
@@ -150,6 +150,12 @@
                 "$ref": "module/project/funder.json"
             },
             "user_friendly": "Funding source(s)"
+        },
+        "estimated_cell_count": {
+            "description": "An estimated number of cells in this project",
+            "type": "integer",
+            "example": "10000; 2100000",
+            "user_friendly": "Estimated cell count"
         }
     }
 }
