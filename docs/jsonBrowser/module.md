@@ -365,6 +365,7 @@ title | The title of the publication. | string | yes |  | Publication title |  |
 doi | The publication digital object identifier (doi) of the publication. | string | no |  | Publication DOI |  | 10.1016/j.cell.2016.07.054
 pmid | The PubMed ID of the publication. | integer | no |  | Publication PMID |  | 27565351
 url | A URL for the publication. | string | no |  | Publication URL |  | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5667944/
+official_hca_publication | Has the publication been accepted as an official HCA publication, according to the process described in https://www.humancellatlas.org/publications/ ? | boolean | no |  | Official HCA Publication? |  | yes; no
 
 ## Human-specific<a name='Human-specific'></a>
 _Information specific to a donor that is a human (Homo sapiens)._

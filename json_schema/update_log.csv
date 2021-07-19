@@ -1,1 +1,2 @@
 Schema,Change type,Change message,Version,Date
+module/project/publication,minor,"Added required official_hca_publication field. Fixes #1345",,
